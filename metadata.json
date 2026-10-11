@@ -1,0 +1,7 @@
+{
+  "name": "Patchnotes - Nature Has Commits, Too",
+  "description": "A local-first open-weight AI nature journal turning outdoor observations into changelogs for the natural world.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

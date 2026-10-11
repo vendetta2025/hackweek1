@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-cream: #FBF8F1;
+    --bg-cream-card: #FFFFFF;
+    --forest-deep: #1B382B;
+    --forest-hover: #142B21;
+    --sage-muted: #8FA89B;
+    --sage-light: #E7EFEA;
+    --sage-border: #D8E3DC;
+    --bark-earth: #6B5B4D;
+  }
+
+  body {
+    background-color: var(--bg-cream);
+    color: var(--forest-deep);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-nature {
+    font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+  }
+
+  .font-mono-changelog {
+    font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Subtle botanical line leaf motif in pure CSS */
+.botanical-grain {
+  background-image: radial-gradient(rgba(27, 56, 43, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.botanical-border {
+  border-color: #D8E3DC;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #1B382B;
+  outline-offset: 2px;
+}
